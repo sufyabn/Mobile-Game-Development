@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
-public class carmovment : MonoBehaviour
+public class carmovment : MonoBehaviour  // code for camera to follow the car.
 {
 [SerializeField] GameObject player;
     void Start()
