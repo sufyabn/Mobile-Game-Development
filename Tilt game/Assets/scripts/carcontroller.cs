@@ -1,19 +1,20 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class carcontroller : MonoBehaviour
 
 {
 
     public float carSpeed = 10f; // speed of the car
-    public float coinCt;
+    public int canCt;
     private Rigidbody carRigibody;
     public float tilt;
-    [SerializeField] Text scoreText;
+    [SerializeField] TMP_Text scoreText;
 
     void Start()
     {
-        coinCt = 0;
+        canCt = 0;
         carRigibody = GetComponent<Rigidbody>();
     }
 
@@ -26,5 +27,17 @@ public class carcontroller : MonoBehaviour
         Quaternion targetRotation = Quaternion.Euler(0, tilt, 0);  //rotation speed
         carRigibody.MoveRotation(Quaternion.Lerp(carRigibody.rotation, targetRotation, 1 * Time.fixedDeltaTime));
     }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "can")
+        {
+            canCt++;
+            scoreText.text = canCt.ToString();
+            Destroy(other.gameObject);
+        }
+    }
+
 
 }

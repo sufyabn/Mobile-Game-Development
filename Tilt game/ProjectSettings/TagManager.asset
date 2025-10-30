@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - trigger
+  - can
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - can
   - Water
   - UI
   - 
