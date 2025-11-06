@@ -11,6 +11,7 @@ public class carcontroller : MonoBehaviour
     private Rigidbody carRigibody;
     public float tilt;
     [SerializeField] TMP_Text scoreText;
+    public LevelManager levelManager;
 
     void Start()
     {
@@ -36,6 +37,7 @@ public class carcontroller : MonoBehaviour
             canCt++;
             scoreText.text = canCt.ToString();
             Destroy(other.gameObject);
+            levelManager.CollectItem();
         }
     }
 

@@ -9,7 +9,7 @@ public class restart : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("anythiung");
+        Debug.Log("anything");
         if (other.CompareTag("Player"))
         {
             Debug.Log("Triggered");
