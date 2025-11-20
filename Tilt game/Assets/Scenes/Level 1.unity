@@ -728,7 +728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78ca7359f2cc4f64fb77af84101d3dd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalItems: 11
+  totalItems: 1
   level: level complete
 --- !u!4 &23741852
 Transform:
