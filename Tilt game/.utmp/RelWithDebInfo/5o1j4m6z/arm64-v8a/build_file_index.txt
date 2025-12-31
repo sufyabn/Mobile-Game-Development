@@ -1,0 +1,2 @@
+C:\Users\sufiy\Downloads\Mobile-Game-Development\Tilt game\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\sufiy\Downloads\Mobile-Game-Development\Tilt game\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

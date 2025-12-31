@@ -1,0 +1,5 @@
+C:/Users/sufiy/Downloads/Mobile-Game-Development/Tilt game/.utmp/RelWithDebInfo/5o1j4m6z/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/sufiy/Downloads/Mobile-Game-Development/Tilt game/.utmp/RelWithDebInfo/5o1j4m6z/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/sufiy/Downloads/Mobile-Game-Development/Tilt game/.utmp/RelWithDebInfo/5o1j4m6z/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/sufiy/Downloads/Mobile-Game-Development/Tilt game/.utmp/RelWithDebInfo/5o1j4m6z/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/sufiy/Downloads/Mobile-Game-Development/Tilt game/.utmp/RelWithDebInfo/5o1j4m6z/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

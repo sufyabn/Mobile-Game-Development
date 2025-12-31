@@ -582,7 +582,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 674599885}
         m_TargetAssemblyTypeName: interstitialAdExample, Assembly-CSharp
-        m_MethodName: ShowAd
+        m_MethodName: LoadAd
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
